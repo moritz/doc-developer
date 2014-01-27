@@ -63,6 +63,9 @@ To be able to run the unit tests, you need to have all optional Perl modules ins
         <para>
 You also need to have an instance of the OTRS web frontend running on the FQDN that is configured in your local OTRS's Config.pm file. This OTRS instance must use the same database that is configured for the unit tests.
         </para>
+        <para>
+It is advisable to restart the web server before running unit tests, to make sure that the code backing the tests and the web server do not diverge.
+        </para>
     </section>
     <section>
         <title>Testing</title>
